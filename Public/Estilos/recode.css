@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c2c2c25e;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #8a8a8a5e;
+    color: rgb(62, 144, 196);
+    text-align: center;
+    padding: 10px;
+}
+
+section .recode {
+    background-color: aliceblue;
+    margin: 65%;
+    padding: 0;
+}
