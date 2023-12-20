@@ -29,3 +29,10 @@ section {
     object-fit: cover;
     margin-bottom: 10px;
 }
+
+.contactos img{
+    width: 60px;
+    height: 60px;
+    justify-content: space-between;
+    padding: 15px;
+}
