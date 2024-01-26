@@ -25,11 +25,13 @@ section {
 }
 
 .programador img {
-    margin-top: 50px;
+    margin: 0;
+    padding: 0;
     width: 200px;
     height: 200px;
     object-fit: cover;
-    margin-bottom: 10px;
+    margin: 0;
+    clip-path: circle(50% at 50% 50%);
 }
 
 .contactos img{
@@ -38,14 +40,23 @@ section {
 }
 
 .programador {
-    width: 350px;
+    width: 300px;
     margin: 20px;
     box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     overflow: hidden;
     background-color: white;
-    height: 500px;
-    margin-left: 100px;
+    height: 390px;
+    margin-left: 125px;
+}
+
+.conocenos{
+    margin-right: 125px;
+    margin-top: 110px
+}
+
+.conocenos h2{
+    
 }
 
 
