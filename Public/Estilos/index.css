@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #c2c2c25e;
+    background-color: #bdbdbd5e;
 }
 
 header, footer {
-    background-color: #8a8a8a5e;
+    background-color: #4242425e;
     color: rgb(62, 144, 196);
     text-align: center;
     padding: 10px;
@@ -35,4 +35,13 @@ section {
     height: 60px;
     justify-content: space-between;
     padding: 15px;
+}
+
+.programador {
+    width: 1000px;
+    margin: 20px;
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
 }
