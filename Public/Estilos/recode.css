@@ -6,6 +6,19 @@ body {
     text-align: center;
 }
 
+a:link{
+    border: 1px solid black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    background-color: #4242425e;
+    color: aliceblue;
+}
+
 header, footer {
     background-color: #8a8a8a5e;
     color: rgb(62, 144, 196);
@@ -18,3 +31,4 @@ section .recode {
     margin: 65%;
     padding: 0;
 }
+

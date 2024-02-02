@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #bdbdbd5e;
+}
+
+header, footer {
+    background-color: #4242425e;
+    color: rgb(62, 144, 196);
+    text-align: center;
+    padding: 10px;
+}
+
+a:link{
+    border: 1px solid black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    background-color: #4242425e;
+    color: aliceblue;
+}
+
+.bento-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 0.5rem;
+
+  }
+
+.card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+
+  .card h2 {
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card p {
+    padding: 1rem;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  

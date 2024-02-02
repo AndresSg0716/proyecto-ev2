@@ -13,6 +13,18 @@ header, footer {
     padding: 10px;
 }
 
+.boton{
+    border: 1px solid black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    background-color: #4242425e;
+    color: aliceblue;
+}
 section {
     padding: 20px;
     display: flex ;
