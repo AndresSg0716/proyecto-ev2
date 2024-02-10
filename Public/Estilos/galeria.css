@@ -7,7 +7,6 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #bdbdbd5e;
 }
 
 header, footer {
@@ -105,3 +104,12 @@ footer a{
     background-color: black;
     color: lightseagreen;
 }
+
+.card span{ 
+  font-size: xx-large;
+}
+
+.card p{
+  font-size: large;
+}
+

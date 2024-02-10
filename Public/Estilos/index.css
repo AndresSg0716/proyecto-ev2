@@ -91,6 +91,10 @@ section {
     font-size: xx-large;
 }
 
+.conocenos a{
+    font-size: large;
+}
+
 .conocenos:hover{
     transform: scale(1.065) ;
     transition: 0.5s;
