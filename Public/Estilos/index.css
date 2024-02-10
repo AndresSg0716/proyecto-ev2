@@ -1,13 +1,16 @@
+*{
+    font-family: 'Inconsolata', monospace;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #bdbdbd5e;
+    background-image: url(../Img/fondo_index.png);
 }
 
 header, footer {
-    background-color: #4242425e;
     color: rgb(62, 144, 196);
     text-align: center;
     padding: 10px;
@@ -46,6 +49,11 @@ section {
     clip-path: circle(50% at 50% 50%);
 }
 
+.programador img:hover{
+    transform: scale(1.065) ;
+    transition: 0.5s;
+}
+
 .contactos img{
     width: 60px;
     height: 60px;
@@ -58,15 +66,68 @@ section {
     border-radius: 8px;
     overflow: hidden;
     background-color: white;
-    height: 390px;
+    height: 327px;
     margin-left: 125px;
 }
 
 .conocenos{
     margin-right: 125px;
-    margin-top: 110px
+    margin-top: 110px;
+    margin-left: 70px;
 }
 
+.conocenos{
+    width: 300px;
+    margin: 20px;
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    height: 500px;
+    margin-left: 70px;
+}
 
+.conocenos span{
+    font-size: xx-large;
+}
 
+.conocenos:hover{
+    transform: scale(1.065) ;
+    transition: 0.5s;
+}
 
+.contactos:hover{
+    transform: scale(1.250) ;
+    transition: 0.5s;
+}
+
+header{
+    background-color: black;
+    color: lightseagreen;
+}
+
+footer, header a{
+    color: lightseagreen;
+}
+
+footer, header a:hover{
+    color: black;
+    background-color: lightseagreen;
+    transition: 0.4s;
+}
+
+footer a:hover{
+    color: black;
+    background-color: lightseagreen;
+    transition: 0.4s;
+}
+
+footer{
+    background-color: black;
+    color: lightseagreen;
+}
+
+footer a{
+    background-color: black;
+    color: lightseagreen;
+}

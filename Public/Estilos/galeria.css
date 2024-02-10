@@ -1,3 +1,7 @@
+*{
+  font-family: 'Inconsolata', monospace;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -71,4 +75,33 @@ a:hover{
     color: #666;
   }
 
-  
+  header{
+    background-color: black;
+    color: lightseagreen;
+}
+
+footer, header a{
+    color: lightseagreen;
+}
+
+footer, header a:hover{
+    color: black;
+    background-color: lightseagreen;
+    transition: 0.4s;
+}
+
+footer a:hover{
+    color: black;
+    background-color: lightseagreen;
+    transition: 0.4s;
+}
+
+footer{
+    background-color: black;
+    color: lightseagreen;
+}
+
+footer a{
+    background-color: black;
+    color: lightseagreen;
+}
