@@ -67,3 +67,11 @@ footer a{
     background-color: black;
     color: lightseagreen;
 }
+
+.caja{
+    height: 150px;
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    background-color: white;
+    margin: 30px;
+}
