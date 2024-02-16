@@ -4,10 +4,12 @@
 
 body {
     font-family: Arial, sans-serif;
+
     margin: 0;
     padding: 0;
     text-align: center;
 }
+
 
 header, footer {
     background-color: #4242425e;
@@ -31,12 +33,12 @@ a:hover{
 
 .bento-gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     background-color: #f5f5f5;
     padding: 2rem;
     border-radius: 0.5rem;
-
+    background-image: url('../Img/fondo_galeria.jpg');
   }
 
 .card {
